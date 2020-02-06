@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>Instagram Viewer</title>
+		<link type="text/css" rel="stylesheet" href="static/css/materialize.min.css">
+		<link type="text/css" rel="stylesheet" href="static/css/bootstrap.min.css">
+		<script type="text/javascript" src="static/js/materialize.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	</head>
+	<body>
+		<form action="" method="POST">
+			<input type="text" name="user" placeholder="@[user]" class="validate" required>
+			<center><button class="btn btn-primary">Cari Profile</button></center>
+		</form>
+		<div class="card">
+			<div class="card mb-3">
+				<img src="{{img}}" class="card-img-top">
+				<div class="card-body">
+					<div class="card-title">
+						<b><center>{{user}}</center></b>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
